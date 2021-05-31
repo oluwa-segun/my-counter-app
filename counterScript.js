@@ -8,16 +8,15 @@ increase.addEventListener("click", increment)
 saveButton.addEventListener("click", saveCount)
 
 function increment() {
-    count = count + 1;
-    displayCount.textContent = count;
+    alert()
 }
 
-function saveCount() {
-    let countStr = count + " - "
-    saved.textContent += countStr;
-    displayCount.textContent = 0;
-    count = 0;
+//function saveCount() {
+    //let countStr = count + " - "
+    //saved.textContent += countStr;
+    //displayCount.textContent = 0;
+    //count = 0;
     
-}
+//}
 
 let firstCard = 
